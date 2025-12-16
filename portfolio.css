@@ -1,0 +1,109 @@
+h1 {
+    color : rgb(240, 238, 238);    
+}
+
+.imagefond{
+    background-image: url("./rectanglenoir.jpg");
+    margin-top : -10px;
+    margin-left : -10px;
+    margin-right : -10px;
+    height : 17%;
+    text-indent: 5%;
+    line-height:140px;
+}
+
+body{
+    background-color: rgb(191, 210, 226);
+}
+
+nav li{
+  float:left;
+  width : 180px;
+  height : 35px;
+  border-right : 1px solid #cccccc;
+  text-align  :center;
+  line-height : 35px;
+  list-style-type: none;
+  margin-top : -17px;
+}
+
+nav li a{ 
+   color : white ;
+   background-color : #333333 ;
+   display : block ;   
+}
+
+nav li :hover{
+   background-color : #67adda;
+}
+
+.titre{
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left : 20px
+}
+
+.fondvert{
+    background-color: rgb(225, 235, 228);
+    border-top: 2px #000000 solid;
+    border-right: 2px #000000 solid;
+    border-bottom: 2px #000000 solid;
+    border-left: 2px #000000 solid;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+    margin-left : 60px;
+    margin-top: 30px;
+    margin-right: 60px;
+    background-image: url("./saintjean.jpg");
+    background-position: right;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.espaceentreligne{
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+
+nav2 ul{
+    float:left;
+    width : 120px;
+    height : 35px;
+    line-height : 35px;
+    list-style-type: none;
+    margin-top : 1px;
+    color : white ;
+    background-color : #ffffff ;
+    display : block ; 
+    margin-left: 22px;
+    text-align: left;
+    
+}
+
+.passouligne{
+    text-decoration: none;
+}
+
+.passouligne:visited{
+    text-decoration: none;
+}
+
+.cnil{
+    margin-top : 40px;
+    text-align: center;
+    height: 10px;
+}
+
+.anssi{
+    margin-top : 40px;
+    text-align: left;
+    height: 10px;
+    margin-left: 300px;
+}
